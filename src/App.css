@@ -1,5 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap');
+
+
 body {
-  background-color: pink;
+  background-color: white;
   margin: 0;
   padding: 0;
+}
+
+:root {
+  --primary-color: #122223;
+  --secondary-color: #F6F2F2;
+  --tertiary-color: #81B59F;
+  --accent-color: #F2FEDC;
+  --attention-color: #E03D5A;
+  --neutral-color: #F0C7B9;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  background-color: var(--secondary-color);
+  height: 12vh;
+  width: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: 'Bodoni Moda', serif;
+  font-size: 1.9em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  letter-spacing: 4px;
 }
